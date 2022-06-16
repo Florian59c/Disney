@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+// // importe la feuille de style de ant dsign / ici car un seu l import necessaire pour toute l'applicztion
+import "antd/dist/antd.css";
+import './index.css';
+import Root from './Root';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Root />
   </React.StrictMode>
 );
 
