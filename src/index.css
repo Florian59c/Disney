@@ -55,6 +55,9 @@ p {
   width: 50%;
 }
 
+.suggestion img {
+  margin-bottom: 2rem;
+}
 
 .nouveau img,
 .suggestion img,
